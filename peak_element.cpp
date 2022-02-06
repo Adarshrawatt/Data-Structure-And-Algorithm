@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//  https://leetcode.com/problems/find-peak-element/
 int peak(int arr[], int size){
     int s = 0;
     int e = size - 1;
@@ -17,7 +17,6 @@ int peak(int arr[], int size){
         }
     }
     return s;
-    
     
 }
 
